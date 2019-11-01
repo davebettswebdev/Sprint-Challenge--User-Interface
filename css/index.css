@@ -289,17 +289,18 @@ footer nav a {
 
 }
 
-.strategy {
+.boxes {
     display: flex;
     flex-direction: column;
     width: 45%;
+    margin: 2%;
 }
 
-.strategy h3 {
+.boxes h3 {
     margin: 2% 0%;
 }
 
-.strategy p {
+.boxes p {
     margin: 2% 0%;
 }
 
