@@ -265,8 +265,9 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding:  2%;
     font-size: 14px;
+    margin: 0 0 0 0;
 }
 
 footer nav a {
@@ -280,7 +281,7 @@ footer nav a {
 	
 }
 
-.topRow {
+.mainSection {
     width: 100%;
 	display: flex;
 	align-items: center;	
@@ -289,27 +290,43 @@ footer nav a {
 
 }
 
-.boxes {
+.sevBoxes {
     display: flex;
     flex-direction: column;
     width: 45%;
     margin: 2%;
+    
 }
 
-.boxes h3 {
-    margin: 2% 0%;
+.sevBoxes h3 {
+    margin: 5% 0% 2%;
 }
 
-.boxes p {
+.sevBoxes p {
     margin: 2% 0%;
 }
 
 .learnMore {
-    font-size: 12px;
-	border: 1px solid black;
+    font-size: 14px;
+	border: 2px solid black;
 	background-color: white;
 	text-align: center;
-	width:125px;
-	padding: 8px;
-	border-radius: 6%;
+	width:115px;
+	padding: 4px;
+    border-radius: 10%;
+    margin: 5px 0;
+}
+
+.bottomSection {
+    width: 100%;
+    margin: 1% 2% 4%;
+}
+
+.nav2 {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 2%;
+    font-size: 14px;
 }
